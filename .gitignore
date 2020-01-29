@@ -132,4 +132,3 @@ dmypy.json
 # my gitignore
 data/processed_data/*
 .DS_Store
-.idea

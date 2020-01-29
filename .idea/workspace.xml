@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264faa4e-f192-44e5-9b30-c95592dfb83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/raw_data/sample_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/raw_data/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/raw_data/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/csv_2_imgs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/csv_2_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/csv_2_imgs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/csv_2_imgs.py" />
-      <option name="PARAMETERS" value="data/raw_data/train.csv" />
+      <option name="PARAMETERS" value="data/raw_data/train.csv train --output_fold data/processed_data/" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -94,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580224106755</updated>
-      <workItem from="1580224111433" duration="2458000" />
+      <workItem from="1580224111433" duration="3836000" />
+      <workItem from="1580287340468" duration="2655000" />
+      <workItem from="1580291026940" duration="489000" />
     </task>
     <servers />
   </component>
@@ -106,24 +104,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tools/csv_2_imgs.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/kaggle_digit_recognizer$csv_2_imgs.coverage" NAME="csv_2_imgs Coverage Results" MODIFIED="1580226618815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kaggle_digit_recognizer$csv_2_imgs.coverage" NAME="csv_2_imgs Coverage Results" MODIFIED="1580290030075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -133,3 +133,4 @@ dmypy.json
 data/processed_data/*
 .DS_Store
 output/*
+test_output/*
